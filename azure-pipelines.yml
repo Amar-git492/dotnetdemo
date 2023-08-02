@@ -14,9 +14,8 @@ pool:
 variables:
   buildConfiguration: 'Release'
   dotNetFramework: 'net6.0'
-  repository: 'walmartpayment'
-  namespace: 'walmartdev'
-  k8sconnection: 'kubewalmartdev'
+  repository: 'cregistr.azurecr.io'
+  namespace: 'bermtech32'
   imagePullSecret: 'test'
 
 stages:
